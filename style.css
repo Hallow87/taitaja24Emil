@@ -1,0 +1,133 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 80px;
+    height: auto;
+  }
+  
+  main {
+    text-align: center;
+    padding: 0px 0;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+  }
+  
+
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #616161;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  button {
+    background-color: #616161;
+    border-radius: 5px;
+    color: #f6f6f6;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+  }
+  .guide {
+  background-color: #eee;
+  padding: 50px;
+  margin-top: 40px;
+  border-radius: 12px;
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.guide-header {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.guide-header-header {
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.guide-subtext {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.guide-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.guide-item {
+    padding: 20px;
+}
+.guide-full {
+    background-color: #eee;
+    margin: 0px;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.banner {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-color: #e6e6e6;
+}
+.vittumainenappula {
+    font-size: 12px;
+    padding: 0px 0px;
+}
+
+.bottom-left {
+    padding-top: 47px;
+}
+.bottom-right {
+    padding-top: 67px;
+}
